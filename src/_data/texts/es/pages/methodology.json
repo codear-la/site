@@ -1,0 +1,13 @@
+{
+    "subtitle": "Cómo Enseñamos Tecnología",
+    "desc": "Creemos que se aprende mejor cuando se explora, se ensaya y se cometen errores en un entorno seguro y divertido. La indagación, la exploración y la significancia de lo realizado refuerza el aprendizaje significativo.",
+    "p1_label": "Pilar 1",
+    "p1_title": "Aprendizaje Activo (Learn by Doing)",
+    "p1_desc": "En codear.la no hay clases teóricas aburridas. Desde el primer minuto, los estudiantes interactúan con el código o ensamblan piezas. La teoría se introduce de forma natural a medida que surge la necesidad de resolver un problema práctico.",
+    "p2_label": "Pilar 2",
+    "p2_title": "Aprendizaje Basado en Proyectos",
+    "p2_desc": "Guiamos a los estudiantes para que diseñen y ejecuten proyectos completos que tengan sentido para ellos. Puede ser programar un videojuego para regalar a un amigo, crear una estación meteorológica para la escuela o automatizar un juguete. Esto los motiva a terminar lo que empiezan y a ver el impacto de su trabajo.",
+    "p3_label": "Pilar 3",
+    "p3_title": "Gamificación y Pensamiento Computacional",
+    "p3_desc": "Diseñamos dinámicas de clase que se sienten como un juego interactivo. Los retos semanales otorgan insignias y logros simbólicos, eliminando la frustración del error. Para nosotros, los errores de código no son fallas, son \"bugs\" que debemos cazar en equipo, estimulando la resiliencia y el análisis lógico."
+}

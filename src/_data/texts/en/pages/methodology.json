@@ -1,0 +1,13 @@
+{
+    "subtitle": "How We Teach Technology",
+    "desc": "We believe learning happens best when exploring, practicing, and making mistakes in a safe and fun environment. Inquiry, exploration, and the significance of what is done reinforce meaningful learning.",
+    "p1_label": "Pillar 1",
+    "p1_title": "Active Learning (Learn by Doing)",
+    "p1_desc": "At codear.la there are no boring theoretical classes. From the very first minute, students interact with code or assemble parts. Theory is introduced naturally as the need arises to solve a practical problem.",
+    "p2_label": "Pillar 2",
+    "p2_title": "Project-Based Learning",
+    "p2_desc": "We guide students to design and execute complete projects that make sense to them. It could be programming a video game to give to a friend, creating a weather station for school, or automating a toy. This motivates them to finish what they start and see the impact of their work.",
+    "p3_label": "Pillar 3",
+    "p3_title": "Gamification and Computational Thinking",
+    "p3_desc": "We design class dynamics that feel like an interactive game. Weekly challenges award badges and symbolic achievements, removing the frustration of error. For us, code errors are not failures; they are 'bugs' that we must hunt down as a team, stimulating resilience and logical analysis."
+}

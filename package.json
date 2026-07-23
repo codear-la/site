@@ -1,0 +1,15 @@
+{
+  "name": "codear-la",
+  "version": "1.0.0",
+  "description": "Sitio web para codear.la - Robótica y programación educativa para niños",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

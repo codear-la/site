@@ -1,0 +1,17 @@
+{
+    "subtitle": "Let's Talk!",
+    "desc": "Have questions about courses, schedules, or formats? Leave us a message and we'll reply shortly.",
+    "placeholder_name": "E.g. John Doe",
+    "placeholder_email": "E.g. john@mail.com",
+    "placeholder_phone": "E.g. +54 9 11 1234-5678",
+    "placeholder_message": "Tell us about your questions...",
+    "sidebar_email_title": "Email Address",
+    "sidebar_phone_title": "Phone / WhatsApp Support",
+    "sidebar_phone_hours": "Mon to Sat from 9:00 AM to 8:00 PM",
+    "sidebar_map_title": "Where are we?",
+    "sidebar_map_desc": "Quilmes, Buenos Aires, Argentina (virtual workshops for all Latin America).",
+    "modal_accept": "Close",
+    "email": "info@codear.la",
+    "phone": "+54 9 11 7365-1228",
+    "whatsapp_url": "https://wa.me/5491173651228?text=Hello,%20I'd%20like%20to%20know%20more%20about%20your%20courses"
+}

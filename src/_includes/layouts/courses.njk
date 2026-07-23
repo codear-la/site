@@ -1,0 +1,697 @@
+---
+layout: layouts/base.njk
+---
+
+<!-- Page Header Intro -->
+<section class="section" style="padding-bottom: 20px;">
+  <div class="container">
+    <div class="highlight-title">
+      <h2>{{ texts[lang].pages.courses.subtitle }}</h2>
+      <p style="max-width: 700px; margin: 15px auto 0; text-align: center;">{{ texts[lang].pages.courses.desc }}</p>
+    </div>
+  </div>
+</section>
+<!-- Section 1: Kids -->
+<section class="section" style="padding-top: 30px; padding-bottom: 50px;">
+  <div class="container">
+    <div id="chicos" style="margin-bottom: 40px; scroll-margin-top: 100px; text-align: left;">
+      <h3
+        class="text-navy"
+        style="font-size: 1.8rem; margin: 0; display: inline-block; position: relative; padding-bottom: 8px;">
+        {{ texts[lang].pages.courses.section_kids_title }}
+        <span style="position: absolute; bottom: 0; left: 0; width: 60px; height: 4px; background-color: var(--color-orange);
+          border-radius: 2px;"></span>
+      </h3>
+      <p style="margin-top: 15px; color: var(--color-text-muted); font-size: 1.05rem;">{{ texts[lang].pages.courses.section_kids_desc }}</p>
+    </div>
+    <div
+      class="grid-3">
+      <!-- Kids Card 1 -->
+      <div class="course-card">
+        <div class="course-header course-header-orange">
+          <span class="course-age">{{ texts[lang].pages.courses.kids_c1_age }}</span>
+          <h3>{{ texts[lang].pages.courses.kids_c1_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.kids_c1_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>1.5 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_easy }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.kids_c1_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+      <!-- Kids Card 2 -->
+      <div class="course-card">
+        <div class="course-header course-header-orange">
+          <span class="course-age">{{ texts[lang].pages.courses.kids_c2_age }}</span>
+          <h3>{{ texts[lang].pages.courses.kids_c2_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.kids_c2_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>2 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_medium }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.kids_c2_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+      <!-- Kids Card 3 -->
+      <div class="course-card">
+        <div class="course-header course-header-orange">
+          <span class="course-age">{{ texts[lang].pages.courses.kids_c3_age }}</span>
+          <h3>{{ texts[lang].pages.courses.kids_c3_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.kids_c3_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>1.5 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_medium }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.kids_c3_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section 2: Teens (Jóvenes) -->
+<section class="section section-alt" style="padding-top: 50px; padding-bottom: 60px;">
+  <div class="container">
+    <div id="jovenes" style="margin-bottom: 40px; scroll-margin-top: 100px; text-align: left;">
+      <h3
+        class="text-teal"
+        style="font-size: 1.8rem; margin: 0; display: inline-block; position: relative; padding-bottom: 8px;">
+        {{ texts[lang].pages.courses.section_teens_title }}
+        <span style="position: absolute; bottom: 0; left: 0; width: 60px; height: 4px; background-color: var(--color-teal);
+          border-radius: 2px;"></span>
+      </h3>
+      <p style="margin-top: 15px; color: var(--color-text-muted); font-size: 1.05rem;">{{ texts[lang].pages.courses.section_teens_desc }}</p>
+    </div>
+    <div
+      class="grid-3">
+      <!-- Teens Card 1 -->
+      <div class="course-card">
+        <div class="course-header course-header-teal">
+          <span class="course-age">{{ texts[lang].pages.courses.teens_c1_age }}</span>
+          <h3>{{ texts[lang].pages.courses.teens_c1_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.teens_c1_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>2 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_medium }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.teens_c1_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+      <!-- Teens Card 2 -->
+      <div class="course-card">
+        <div class="course-header course-header-teal">
+          <span class="course-age">{{ texts[lang].pages.courses.teens_c2_age }}</span>
+          <h3>{{ texts[lang].pages.courses.teens_c2_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.teens_c2_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>2 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_medium }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.teens_c2_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+      <!-- Teens Card 3 -->
+      <div class="course-card">
+        <div class="course-header course-header-teal">
+          <span class="course-age">{{ texts[lang].pages.courses.teens_c3_age }}</span>
+          <h3>{{ texts[lang].pages.courses.teens_c3_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.teens_c3_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>3 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_hard }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.teens_c3_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section 3: Adults (Adultos) -->
+<section class="section" style="padding-top: 50px; padding-bottom: 60px;">
+  <div class="container">
+    <div id="adultos" style="margin-bottom: 40px; scroll-margin-top: 100px; text-align: left;">
+      <h3
+        class="text-navy"
+        style="font-size: 1.8rem; margin: 0; display: inline-block; position: relative; padding-bottom: 8px;">
+        {{ texts[lang].pages.courses.section_adults_title }}
+        <span style="position: absolute; bottom: 0; left: 0; width: 60px; height: 4px; background-color: var(--color-navy);
+          border-radius: 2px;"></span>
+      </h3>
+      <p style="margin-top: 15px; color: var(--color-text-muted); font-size: 1.05rem;">{{ texts[lang].pages.courses.section_adults_desc }}</p>
+    </div>
+    <div
+      class="grid-3">
+      <!-- Adults Card 1 -->
+      <div class="course-card">
+        <div class="course-header course-header-navy">
+          <span class="course-age">{{ texts[lang].pages.courses.adults_c1_age }}</span>
+          <h3>{{ texts[lang].pages.courses.adults_c1_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.adults_c1_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>3 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_easy }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.adults_c1_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+      <!-- Adults Card 2 -->
+      <div class="course-card">
+        <div class="course-header course-header-navy">
+          <span class="course-age">{{ texts[lang].pages.courses.adults_c2_age }}</span>
+          <h3>{{ texts[lang].pages.courses.adults_c2_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.adults_c2_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>2 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_medium }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.adults_c2_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+      <!-- Adults Card 3 -->
+      <div class="course-card">
+        <div class="course-header course-header-navy">
+          <span class="course-age">{{ texts[lang].pages.courses.adults_c3_age }}</span>
+          <h3>{{ texts[lang].pages.courses.adults_c3_title }}</h3>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <div
+              class="course-meta-item">
+              <!-- Clock Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12,6 12,12 16,14"></polyline>
+              </svg>
+              <span>{{ texts[lang].ui.duration }}: {{ texts[lang].pages.courses.adults_c3_duration }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Calendar Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>2.5 {{ texts[lang].ui.hours }}</span>
+            </div>
+            <div
+              class="course-meta-item">
+              <!-- Level Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>{{ texts[lang].ui.difficulty }}: {{ texts[lang].ui.difficulty_hard }}</span>
+            </div>
+          </div>
+          <p>{{ texts[lang].pages.courses.adults_c3_desc }}</p>
+          <a href="{{ routes[lang].contact }}" class="btn btn-secondary card-footer">{{ texts[lang].ui.enroll_btn }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

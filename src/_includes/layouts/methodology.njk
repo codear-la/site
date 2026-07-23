@@ -1,0 +1,60 @@
+---
+layout: layouts/base.njk
+---
+
+<section class="section">
+  <div class="container">
+    <div class="highlight-title">
+      <h2>{{ texts[lang].pages.methodology.subtitle }}</h2>
+      <p style="max-width: 700px; margin: 15px auto 0; text-align: center;">{{ texts[lang].pages.methodology.desc }}</p>
+    </div>
+
+    <!-- Row 1: Pillar 1 -->
+    <div class="feature-row">
+      <div class="feature-content">
+        <span class="text-teal" style="font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">{{ texts[lang].pages.methodology.p1_label }}</span>
+        <h3>{{ texts[lang].pages.methodology.p1_title }}</h3>
+        <p>{{ texts[lang].pages.methodology.p1_desc }}</p>
+      </div>
+      <div class="feature-image">
+        <!-- Abstract illustration integrated with SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="40" fill="none" stroke="#13b1a4" stroke-width="3" />
+          <path d="M30 50 L45 65 L70 35" fill="none" stroke="#144265" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Row 2: Pillar 2 -->
+    <div class="feature-row reverse">
+      <div class="feature-content">
+        <span class="text-teal" style="font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">{{ texts[lang].pages.methodology.p2_label }}</span>
+        <h3>{{ texts[lang].pages.methodology.p2_title }}</h3>
+        <p>{{ texts[lang].pages.methodology.p2_desc }}</p>
+      </div>
+      <div class="feature-image feature-image-orange">
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
+          <rect x="25" y="25" width="50" height="50" rx="10" fill="none" stroke="#f59e0b" stroke-width="6" />
+          <polygon points="50,35 62,60 38,60" fill="#144265" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Row 3: Pillar 3 -->
+    <div class="feature-row">
+      <div class="feature-content">
+        <span class="text-teal" style="font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">{{ texts[lang].pages.methodology.p3_label }}</span>
+        <h3>{{ texts[lang].pages.methodology.p3_title }}</h3>
+        <p>{{ texts[lang].pages.methodology.p3_desc }}</p>
+      </div>
+      <div class="feature-image">
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
+          <path d="M20 30 H80 V70 H20 Z" fill="none" stroke="#13b1a4" stroke-width="6" rx="5" />
+          <circle cx="35" cy="50" r="6" fill="#f59e0b" />
+          <circle cx="50" cy="50" r="6" fill="#144265" />
+          <circle cx="65" cy="50" r="6" fill="#13b1a4" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>

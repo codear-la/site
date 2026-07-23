@@ -1,0 +1,42 @@
+<header class="site-header">
+  <div class="container header-container">
+    <!-- Logo linked to home in the current language -->
+    <a href="{{ routes[lang].home }}" class="site-logo" aria-label="codear.la home">
+      <img src="/images/logo.svg" alt="codear.la Logo" width="215" height="52" />
+    </a>
+
+    <!-- Checkbox to control mobile menu via CSS -->
+    <input type="checkbox" id="nav-checkbox" />
+    <label for="nav-checkbox" class="menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+      <a href="{{ routes[lang].home }}" class="nav-link {% if pageId == 'home' %}active{% endif %}">
+        {{ texts[lang].nav.home }}
+      </a>
+      <a href="{{ routes[lang].courses }}" class="nav-link {% if pageId == 'courses' %}active{% endif %}">
+        {{ texts[lang].nav.courses }}
+      </a>
+      <a href="{{ routes[lang].methodology }}" class="nav-link {% if pageId == 'methodology' %}active{% endif %}">
+        {{ texts[lang].nav.methodology }}
+      </a>
+      <a href="{{ routes[lang].about }}" class="nav-link {% if pageId == 'about' %}active{% endif %}">
+        {{ texts[lang].nav.about }}
+      </a>
+      <a href="{{ routes[lang].contact }}" class="nav-link {% if pageId == 'contact' %}active{% endif %}">
+        {{ texts[lang].nav.contact }}
+      </a>
+
+      <!-- Language Selector -->
+      <div class="lang-selector">
+        <a href="{{ routes.es[pageId] }}" class="lang-btn {% if lang == 'es' %}active{% endif %}" title="Español">es</a>
+        <a href="{{ routes.en[pageId] }}" class="lang-btn {% if lang == 'en' %}active{% endif %}" title="English">en</a>
+        <a href="{{ routes.pt[pageId] }}" class="lang-btn {% if lang == 'pt' %}active{% endif %}" title="Português">pt</a>
+      </div>
+    </nav>
+  </div>
+</header>

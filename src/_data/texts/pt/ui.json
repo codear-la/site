@@ -1,0 +1,22 @@
+{
+    "learn_more": "Saiba mais",
+    "explore_courses": "Ver Programas",
+    "contact_btn": "Fale conosco",
+    "send": "Enviar Mensagem",
+    "name": "Nome Completo",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "course_interest": "Curso de Interesse",
+    "select_course": "Selecione um curso",
+    "success_title": "Mensagem Enviada!",
+    "success_text": "Muito obrigado por nos escrever. Entraremos em contato com você o mais breve possível.",
+    "age_group": "Idade recomendada",
+    "duration": "Duração",
+    "hours": "horas semanais",
+    "difficulty": "Dificuldade",
+    "difficulty_easy": "Iniciante",
+    "difficulty_medium": "Intermediário",
+    "difficulty_hard": "Avançado",
+    "enroll_btn": "Inscrever-se / Consultar"
+}
