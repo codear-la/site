@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+
+---
+{% from 'macros/methodology/index.njk' import methodology_pillar with context %}
+
+<section class="section">
+  <div class="container">
+    <div class="highlight-title">
+      <h2>{{ texts.pages.methodology.title }}</h2>
+      <p style="max-width: 700px; margin: 15px auto 0; text-align: center;">
+        {{ texts.pages.methodology.subtitle }}
+      </p>
+    </div>
+
+    {% for pillar in texts.pages.methodology.pillars %}
+      {{
+        methodology_pillar(helpers.icons[pillar.icon.split('.').pop()], pillar.label, pillar.title, pillar.desc, pillar.reversed)
+      }}
+    {% endfor %}
+  </div>
+</section>

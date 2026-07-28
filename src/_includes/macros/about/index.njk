@@ -1,0 +1,14 @@
+{%
+  from 'macros/about/member_card.njk' import member_card as member_card_impl with context
+%}
+{%
+  from 'macros/about/value_card.njk' import value_card as value_card_impl with context
+%}
+
+{% macro value_card(item) %}
+  {{ value_card_impl(item) }}
+{% endmacro %}
+
+{% macro member_card(member) %}
+  {{ member_card_impl(member) }}
+{% endmacro %}

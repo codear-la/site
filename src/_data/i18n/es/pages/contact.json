@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "title": "Ponte en Contacto con Nosotros",
+        "description": "Escríbenos para solicitar información sobre cursos, talleres extracurriculares o eventos especiales de robótica."
+    },
+    "title": "¡Hablemos!",
+    "subtitle": "¿Tienes dudas sobre los cursos, horarios o modalidades? Déjanos un mensaje y te responderemos a la brevedad.",
+    "contact_form": {
+        "name": {
+            "label": "Nombre Completo",
+            "placeholder": "Ej. Juan Pérez"
+        },
+        "phone": {
+            "label": "Teléfono",
+            "placeholder": "Ej. +54 9 11 1234-5678"
+        },
+        "email": {
+            "label": "Correo Electrónico",
+            "placeholder": "Ej. juan@correo.com"
+        },
+        "message": {
+            "label": "Mensaje",
+            "placeholder": "Cuéntanos tu inquietud..."
+        },
+        "send": {
+            "text": "Enviar Mensaje"
+        }
+    },
+    "success_modal": {
+        "title": "¡Mensaje Enviado!",
+        "text": "Muchas gracias por escribirnos. Nos pondremos en contacto contigo a la brevedad.",
+        "accept": "Aceptar"
+    },
+    "sidebar": {
+        "email": {
+            "title": "Correo Electrónico"
+        },
+        "phone": {
+            "title": "Atención Telefónica / WhatsApp",
+            "hours": "Lun a Sabados de 9:00 a 20:00 hs"
+        },
+        "address": {
+            "title": "¿Dónde estamos?"
+        }
+    },
+    "modal_accept": "Aceptar"
+}

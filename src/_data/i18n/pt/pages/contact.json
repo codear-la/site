@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "title": "Entre em Contato Conosco",
+        "description": "Escreva para nós para solicitar informações sobre cursos, oficinas extracurriculares ou eventos especiais de robótica."
+    },
+    "title": "Vamos Conversar!",
+    "subtitle": "Tem dúvidas sobre cursos, horários ou modalidades? Deixe-nos uma mensagem e responderemos o mais breve possível.",
+    "contact_form": {
+        "name": {
+            "label": "Nome Completo",
+            "placeholder": "Ex. João Silva"
+        },
+        "phone": {
+            "label": "Telefone",
+            "placeholder": "Ex. +54 9 11 1234-5678"
+        },
+        "email": {
+            "label": "E-mail",
+            "placeholder": "Ex. joao@email.com"
+        },
+        "message": {
+            "label": "Mensagem",
+            "placeholder": "Conte-nos o que você precisa saber..."
+        },
+        "send": {
+            "text": "Enviar Mensagem"
+        }
+    },
+    "success_modal": {
+        "title": "Mensagem Enviada!",
+        "text": "Muito obrigado por nos escrever. Entraremos em contato com você o mais breve possível.",
+        "accept": "Fechar"
+    },
+    "sidebar": {
+        "email": {
+            "title": "E-mail"
+        },
+        "phone": {
+            "title": "Atendimento por Telefone / WhatsApp",
+            "hours": "Seg a Sáb, das 9h às 20h"
+        },
+        "address": {
+            "title": "Onde estamos?"
+        }
+    },
+    "modal_accept": "Fechar"
+}

@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+
+---
+
+{% from 'macros/courses/index.njk' import courses_section with context %}
+
+<!-- Page Header Intro -->
+<section class="section" style="padding-bottom: 20px;">
+  <div class="container">
+    <div class="highlight-title">
+      <h2>{{ texts.pages.courses.title }}</h2>
+      <p style="max-width: 700px; margin: 15px auto 0; text-align: center;">
+        {{ texts.pages.courses.subtitle }}
+      </p>
+    </div>
+  </div>
+</section>
+{{ courses_section('kinder', 'yellow') }}
+{{ courses_section('kids', 'yellow') }}
+{{ courses_section('teens', 'teal') }}
+{{ courses_section('adults', 'navy') }}

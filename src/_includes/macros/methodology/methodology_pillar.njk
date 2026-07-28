@@ -1,0 +1,15 @@
+{% macro methodology_pillar( icon_path, label, title, description, reversed ) %}
+  <div class="feature-row{% if reversed %} reverse{% endif %}">
+    <div class="feature-content">
+      <span
+        class="text-teal"
+        style="font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;"
+      >{{ label }}</span>
+      <h3>{{ title }}</h3>
+      <p>{{ description }}</p>
+    </div>
+    <div class="feature-image">
+      {% include icon_path %}
+    </div>
+  </div>
+{% endmacro %}

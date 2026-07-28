@@ -1,0 +1,7 @@
+{%
+  from 'macros/home/benefits_card.njk' import benefits_card as benefits_card_impl with context
+%}
+
+{% macro benefits_card( props ) %}
+  {{ benefits_card_impl(props) }}
+{% endmacro %}

@@ -1,0 +1,75 @@
+---
+layout: "layouts/base.njk"
+
+---
+
+{% from 'macros/home/index.njk' import benefits_card with context %}
+
+<!-- Hero Section -->
+<section class="section">
+  <div class="container hero-wrapper">
+    <div class="hero-content">
+      <h1 class="text-navy">{{ texts.pages.home.hero.title | safe }}</h1>
+      <p class="hero-subtitle">
+        {{ texts.pages.home.hero.subtitle | safe }}
+      </p>
+      <div class="btn-group">
+        <a
+          href="{{ routes[lang].courses }}#{{ texts.pages.courses.meta.kids_id }}"
+          class="btn btn-accent"
+        >{{ texts.pages.home.hero.btn_kids }}</a>
+        <a
+          href="{{ routes[lang].courses }}#{{ texts.pages.courses.meta.teens_id }}"
+          class="btn btn-primary"
+        >{{ texts.pages.home.hero.btn_teens }}</a>
+        <a
+          href="{{ routes[lang].courses }}#{{ texts.pages.courses.meta.adults_id }}"
+          class="btn btn-secondary"
+        >{{ texts.pages.home.hero.btn_adults }}</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img
+        src="/images/robot-hero.svg"
+        alt="Robot illustration"
+        width="400"
+        height="400"
+      />
+    </div>
+  </div>
+</section>
+<!-- Benefits Section -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="highlight-title">
+      <h2>{{ texts.pages.home.benefits.title }}</h2>
+      <p style="max-width: 700px; margin: 15px auto 0; text-align: center;">
+        {{ texts.pages.home.benefits.desc | safe }}
+      </p>
+    </div>
+    <div class="grid-3">
+      {% for benefit in texts.pages.home.benefits.items %}
+        {{
+          benefits_card(lang, texts, { 'title': benefit.title, 'description': benefit.desc, 'icon': benefit.icon })
+        }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- Call to Action Section -->
+<section
+  class="section"
+  style="background: linear-gradient(135deg, var(--color-navy), var(--color-navy-dark)); color: white;"
+>
+  <div class="container text-center">
+    <h2 style="color: white; margin-bottom: 20px;">
+      {{ texts.pages.home.call_to_action.title }}
+    </h2>
+    <p style="color: #94a3b8; max-width: 600px; margin: 0 auto 35px; font-size: 1.1rem;">
+      {{ texts.pages.home.call_to_action.description }}
+    </p>
+    <a href="{{ routes[lang].contact }}" class="btn btn-accent">{{
+      texts.pages.home.call_to_action.contact
+    }}</a>
+  </div>
+</section>

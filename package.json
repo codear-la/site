@@ -2,14 +2,19 @@
   "name": "codear-la",
   "version": "1.0.0",
   "description": "Sitio web para codear.la - Robótica y programación educativa para niños",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+    "start": "npx @11ty/eleventy --serve"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^3.1.2",
+    "@types/node": "^26.1.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
   }
 }

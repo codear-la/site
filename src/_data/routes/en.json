@@ -3,5 +3,59 @@
     "courses": "/en/courses/",
     "methodology": "/en/methodology/",
     "about": "/en/about/",
-    "contact": "/en/contact/"
+    "contact": "/en/contact/",
+    "course_signup": {
+        "kinder_mini_builders": "/en/forms/kinder_mini_builders/",
+        "kinder_mini_gamers": "/en/forms/kinder_mini_gamers/",
+        "kids_little_creators": "/en/forms/kids_little_creators/",
+        "kids_little_coders": "/en/forms/kids_little_coders/",
+        "kids_events": "/en/forms/kids_events/",
+        "teens_young_engineers": "/en/forms/teens_young_engineers/",
+        "teens_young_developers": "/en/forms/teens_young_developers/",
+        "teens_custom_classes": "/en/forms/teens_custom_classes/",
+        "adults_programming_startup": "/en/forms/adults_programming_startup/",
+        "adults_programming_tooling": "/en/forms/adults_programming_tooling/",
+        "corporate_contact": "/en/forms/corporate_contact/"
+    },
+    "course_plan": {
+        "kinder_mini_builders": "/en/plans/kinder_mini_builders/",
+        "kinder_mini_gamers": "/en/plans/kinder_mini_gamers/",
+        "kids_little_creators": "/en/plans/kids_little_creators/",
+        "kids_little_coders": "/en/plans/kids_little_coders/",
+        "kids_events": "/en/plans/kids_events/",
+        "teens_young_engineers": "/en/plans/teens_young_engineers/",
+        "teens_young_developers": "/en/plans/teens_young_developers/",
+        "teens_custom_classes": "/en/plans/teens_custom_classes/",
+        "adults_programming_startup": "/en/plans/adults_programming_startup/",
+        "adults_programming_tooling": "/en/plans/adults_programming_tooling/",
+        "corporate_contact": "/en/plans/corporate_contact/"
+    },
+    "redirects": {
+        "course_signup": {
+            "kinder_mini_builders": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "kinder_mini_gamers": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "kids_little_creators": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "kids_little_coders": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "kids_events": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "teens_young_engineers": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "teens_young_developers": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "teens_custom_classes": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "adults_programming_startup": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "adults_programming_tooling": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "corporate_contact": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform"
+        },
+        "course_plan": {
+            "kinder_mini_builders": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "kinder_mini_gamers": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "kids_little_creators": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "kids_little_coders": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "kids_events": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "teens_young_engineers": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "teens_young_developers": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "teens_custom_classes": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "adults_programming_startup": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "adults_programming_tooling": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform",
+            "corporate_contact": "https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXX/viewform"
+        }
+    }
 }

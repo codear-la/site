@@ -1,0 +1,8 @@
+{% macro value_card( item ) %}
+  <li style="display: flex; gap: 12px;">
+    {% include helpers.icons.check %}
+    <span>
+      <strong>{{ item.title }}</strong>
+      {{ item.text }}</span>
+  </li>
+{% endmacro %}

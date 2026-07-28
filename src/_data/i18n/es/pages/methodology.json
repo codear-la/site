@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "title": "Nuestra Metodología de Aprendizaje",
+        "description": "Metodología basada en proyectos y aprendizaje activo (STEM). Fomentamos la curiosidad y la experimentación en robótica y programación."
+    },
+    "title": "Cómo Enseñamos Tecnología",
+    "subtitle": "Creemos que se aprende mejor cuando se explora, se ensaya y se cometen errores en un entorno seguro y divertido. La indagación, la exploración y la significancia de lo realizado refuerza el aprendizaje significativo.",
+    "pillars": [
+        {
+            "label": "Pilar 1",
+            "title": "Aprendizaje Activo (Learn by Doing)",
+            "desc": "En codear.la no hay clases teóricas aburridas. Desde el primer minuto, los estudiantes interactúan con el código o ensamblan piezas. La teoría se introduce de forma natural a medida que surge la necesidad de resolver un problema práctico.",
+            "icon": "helpers.icons.pillar1",
+            "reversed": false
+        },
+        {
+            "label": "Pilar 2",
+            "title": "Aprendizaje Basado en Proyectos",
+            "desc": "Guiamos a los estudiantes para que diseñen y ejecuten proyectos completos que tengan sentido para ellos. Puede ser programar un videojuego para regalar a un amigo, crear una estación meteorológica para la escuela o automatizar un juguete. Esto los motiva a terminar lo que empiezan y a ver el impacto de su trabajo.",
+            "icon": "helpers.icons.pillar2",
+            "reversed": true
+        },
+        {
+            "label": "Pilar 3",
+            "title": "Gamificación y Pensamiento Computacional",
+            "desc": "Diseñamos dinámicas de clase que se sienten como un juego interactivo. Los retos semanales otorgan insignias y logros simbólicos, eliminando la frustración del error. Para nosotros, los errores de código no son fallas, son \"bugs\" que debemos cazar en equipo, estimulando la resiliencia y el análisis lógico.",
+            "icon": "helpers.icons.pillar3",
+            "reversed": false
+        }
+    ]
+}

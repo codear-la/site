@@ -1,0 +1,146 @@
+{
+    "meta": {
+        "title": "Nossos Cursos de Robótica e Programação",
+        "description": "Cursos projetados e adaptados por faixa etária. Desde a lógica básica de programação até o desenvolvimento real de hardware e software.",
+        "kinder_id": "kinder",
+        "kids_id": "criancas",
+        "teens_id": "jovens",
+        "adults_id": "adultos"
+    },
+    "title": "Cursos Adaptados por Idades",
+    "subtitle": "Nosso plano de estudos é estruturado pedagogicamente para acompanhar o desenvolvimento cognitivo de cada estudante.",
+    "courses": {
+        "kinder": {
+            "title": "Propostas para Kinder",
+            "description": "Para pequenos aprendizes começarem a explorar tecnologia e estruturas básicas.",
+            "courses": [
+                {
+                    "id": "kinder_mini_builders",
+                    "age": "4 a 7 anos",
+                    "title": "Mini Construtores",
+                    "description": "Uma introdução lúdica à construção e mecânica básica para os nossos alunos mais novos.",
+                    "difficulty": "Iniciante",
+                    "duration": "1 mês por oficina",
+                    "hours": "1"
+                },
+                {
+                    "id": "kinder_mini_gamers",
+                    "age": "4 a 7 anos",
+                    "title": "Mini Gamers",
+                    "description": "Aprenda passos lógicos básicos e controle de direção por meio de codificação de jogos divertidos e simples.",
+                    "difficulty": "Iniciante",
+                    "duration": "1 mês por oficina",
+                    "hours": "1"
+                }
+            ]
+        },
+        "kids": {
+            "title": "Propostas para Crianças",
+            "desc": "Para mentes curiosas fazendo os seus primeiros passos em tecnologia e lógica.",
+            "courses": [
+                {
+                    "id": "kids_little_creators",
+                    "age": "8 a 12 anos",
+                    "title": "Pequenos Criadores",
+                    "description": "Nesta oficina, as crianças aprendem sobre as bases fundamentais da eletrônica, robótica e programação. Aprenderão criando pequenos robôs que programarão para atingir seus objetivos. O curso completo é estruturado em várias oficinas de 2 semanas cada, para que cada criança possa fazê-lo em seu próprio ritmo.",
+                    "difficulty": "Iniciante",
+                    "duration": "2 meses por oficina",
+                    "hours": "1.5"
+                },
+                {
+                    "id": "kids_little_coders",
+                    "age": "8 a 12 anos",
+                    "title": "Pequenos Coders",
+                    "description": "Nesta oficina, as crianças aprendem sobre os conceitos fundamentais de programação, com exercícios simples y guiados, para depois desenvolver suas próprias animações e, finalmente, jogos usando os elements de programação aprendidos.",
+                    "difficulty": "Iniciante",
+                    "duration": "3 meses por oficina",
+                    "hours": "2"
+                },
+                {
+                    "id": "kids_events",
+                    "age": "8 a 12 anos",
+                    "title": "Eventos",
+                    "description": "Uma oficina de uma hora e meia pensada como uma primeira abordagem tecnológica em eventos e festas de aniversário. Uma experiência única que convida as crianças a despertarem a curiosidade pela tecnologia.",
+                    "difficulty": "Iniciante",
+                    "duration": "1h30",
+                    "hours": "1.5"
+                }
+            ]
+        },
+        "teens": {
+            "title": "Propostas para Jovens",
+            "desc": "Desafíos reais de programação e robótica para los criadores del amanhã.",
+            "courses": [
+                {
+                    "id": "teens_young_engineers",
+                    "age": "13 a 17 anos",
+                    "title": "Jovens Automatizadores",
+                    "description": "Nesta oficina, os jovens aprenderão os fundamentos da automação e do controle industrial, usando os conceitos fundamentais da robótica para resolver problemas do mundo real.",
+                    "difficulty": "Intermediário",
+                    "duration": "6 meses por oficina",
+                    "hours": "2"
+                },
+                {
+                    "id": "teens_young_developers",
+                    "age": "13 a 17 anos",
+                    "title": "Jovens Desenvolvedores",
+                    "description": "Neste curso, os jovens aprenderão a trabalhar com linguagens de programação industriais, como Python e JavaScript, criando sistemas com interfaces gráficas web e conexões a bancos de dados.",
+                    "difficulty": "Intermediário",
+                    "duration": "6 meses por oficina",
+                    "hours": "2"
+                },
+                {
+                    "id": "teens_custom_classes",
+                    "age": "13 a 17 anos",
+                    "title": "Preparação Universitária",
+                    "description": "Se você está pensando em ingressar na universidade em um curso de engenharia ou tecnologia, nós te ajudamos a se preparar para os exames de admissão.",
+                    "difficulty": "Intermediário",
+                    "duration": "Aulas personalizadas",
+                    "hours": "3"
+                }
+            ]
+        },
+        "adults": {
+            "title": "Propostas para Adultos",
+            "desc": "Reconversão profissional, automação e tecnologias líderes no setor.",
+            "courses": [
+                {
+                    "id": "adults_programming_startup",
+                    "age": "18+ anos",
+                    "title": "Iniciação ao Software",
+                    "description": "Uma serie de oficinas que levarão você a programar do zero, focando nos conceitos fundamentais do desenvolvimento de software.",
+                    "difficulty": "Intermediário",
+                    "duration": "Oficinas Virtuais Autoguiadas",
+                    "hours": "3"
+                },
+                {
+                    "id": "adults_programming_tooling",
+                    "age": "18+ anos",
+                    "title": "Oficinas de Formação Específica",
+                    "description": "Orientados a estudantes e profissionais que precisam aprender uma tecnologia específica. Estas oficinas permitirão que você aprenda os conceitos teóricos e práticos por trás de cada ferramenta ou metodologia e as coloque em prática em suas aulas ou trabalho.",
+                    "difficulty": "Difícil",
+                    "duration": "Oficinas Virtuais Autoguiadas",
+                    "hours": "2"
+                },
+                {
+                    "id": "corporate_contact",
+                    "age": "18+ anos",
+                    "title": "Capacitação Empresarial",
+                    "description": "Elaboramos programas sob medida para empresas, combinando oficinas, eventos e atividades de team-building tecnológico para potencializar o treinamento de equipes.",
+                    "difficulty": "Intermediário",
+                    "duration": "A combinar",
+                    "hours": "2.5"
+                }
+            ]
+        }
+    },
+    "course_card": {
+        "success_text": "Muito obrigado por nos escrever. Entraremos em contato com você o mais breve possível.",
+        "age_group": "Idade recomendada",
+        "duration": "Duração",
+        "hours": "horas semanais",
+        "difficulty": "Dificuldade",
+        "enroll_btn": "Inscrever-se",
+        "view_proposal_btn": "Ver proposta"
+    }
+}

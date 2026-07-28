@@ -1,0 +1,57 @@
+{% macro course_card( props ) %}
+  {# props: { age, title, description, duration, hours, difficulty, google_form_url, google_drive_url, category } #}
+  <div class="course-card">
+    <div class="course-header {% if props.category == 'teens' %}course-header-teal{% elif props.category == 'adults' %}course-header-navy{% else %}course-header-orange{% endif %}">
+      <span class="course-age">{{ props.age }}</span>
+      <h3>{{ props.title }}</h3>
+    </div>
+    <div class="course-body">
+      <div class="course-meta">
+        <div class="course-meta-item">
+          <!-- Clock Icon -->
+          {% include helpers.icons.clock %}
+          <span>{{ texts.pages.courses.course_card.duration }}: {{
+              props.duration
+            }}</span>
+        </div>
+        <div class="course-meta-item">
+          <!-- Calendar Icon -->
+          {% include helpers.icons.calendar %}
+          <span>{{ props.hours }}
+            {{ texts.pages.courses.course_card.hours }}</span>
+        </div>
+        <div class="course-meta-item">
+          <!-- Level Icon -->
+          {% include helpers.icons.level %}
+          <span>{{ texts.pages.courses.course_card.difficulty }}: {{
+              props.difficulty
+            }}</span>
+        </div>
+      </div>
+      <p>{{ props.description }}</p>
+      <div
+        class="card-footer"
+        style="display: flex; gap: 10px; margin-top: auto; padding-top: 20px;"
+      >
+        <a
+          href="{{ props.form_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn {% if props.category == 'teens' %}btn-primary{% elif props.category == 'adults' %}btn-navy{% else %}btn-accent{% endif %}"
+          style="flex: 1; padding: 10px 8px; font-size: 0.88rem; white-space: nowrap;"
+        >
+          {{ texts.pages.courses.course_card.enroll_btn }}
+        </a>
+        <a
+          href="{{ props.plan_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-secondary"
+          style="flex: 1; padding: 10px 8px; font-size: 0.88rem; white-space: nowrap;"
+        >
+          {{ texts.pages.courses.course_card.view_proposal_btn }}
+        </a>
+      </div>
+    </div>
+  </div>
+{% endmacro %}

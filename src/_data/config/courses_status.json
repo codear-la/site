@@ -1,0 +1,57 @@
+[
+    {
+        "id": "kinder_mini_builders",
+        "category": "kinder",
+        "available": true
+    },
+    {
+        "id": "kinder_mini_gamers",
+        "category": "kinder",
+        "available": true
+    },
+    {
+        "id": "kids_little_creators",
+        "category": "kids",
+        "available": true
+    },
+    {
+        "id": "kids_little_coders",
+        "category": "kids",
+        "available": true
+    },
+    {
+        "id": "kids_events",
+        "category": "kids",
+        "available": true
+    },
+    {
+        "id": "teens_young_engineers",
+        "category": "teen",
+        "available": true
+    },
+    {
+        "id": "teens_young_developers",
+        "category": "teen",
+        "available": true
+    },
+    {
+        "id": "teens_custom_classes",
+        "category": "teen",
+        "available": true
+    },
+    {
+        "id": "adults_programming_startup",
+        "category": "adults",
+        "available": true
+    },
+    {
+        "id": "adults_programming_tooling",
+        "category": "adults",
+        "available": true
+    },
+    {
+        "id": "corporate_contact",
+        "category": "adults",
+        "available": true
+    }
+]

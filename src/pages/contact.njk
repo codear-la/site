@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+
+---
+
+{%
+  from 'macros/contact/index.njk' import contact_form, contact_form_success_modal, contact_address_card, contact_email_card, contact_phone_card with context
+%}
+
+<section class="section">
+  <div class="container">
+    <div class="highlight-title">
+      <h2>{{ texts.pages.contact.title }}</h2>
+      <p style="max-width: 600px; margin: 15px auto 0; text-align: center;">
+        {{ texts.pages.contact.subtitle }}
+      </p>
+    </div>
+    <div class="contact-wrapper">
+      <!-- Contact Form -->
+      <div class="contact-card">
+        {{ contact_form() }}
+      </div>
+      <!-- Info Sidebar -->
+      <div class="info-sidebar">
+        {{ contact_email_card(config.contact.email) }}
+        {{ contact_phone_card(config.contact.phone, config.contact.waurl) }}
+        {{
+          contact_address_card(config.contact.address, config.contact.map_embed)
+        }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Success Modal (Pop-up) -->
+{{ contact_form_success_modal() }}

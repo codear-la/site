@@ -1,0 +1,146 @@
+{
+    "meta": {
+        "title": "Our Robotics & Programming Courses",
+        "description": "Our curriculum is pedagogically structured to accompany the cognitive development of each student.",
+        "kinder_id": "kinder",
+        "kids_id": "kids",
+        "teens_id": "teens",
+        "adults_id": "adults"
+    },
+    "title": "Courses Adapted by Age",
+    "subtitle": "Our curriculum is pedagogically structured to accompany the cognitive development of each student.",
+    "courses": {
+        "kinder": {
+            "title": "Programs for Kinder",
+            "description": "For early learners starting to explore technology and basic structures.",
+            "courses": [
+                {
+                    "id": "kinder_mini_builders",
+                    "age": "4 to 7 years",
+                    "title": "Mini Builders",
+                    "description": "A playful introduction to building and basic mechanics for our youngest learners.",
+                    "difficulty": "Beginner",
+                    "duration": "1 month per workshop",
+                    "hours": "1"
+                },
+                {
+                    "id": "kinder_mini_gamers",
+                    "age": "4 to 7 years",
+                    "title": "Mini Gamers",
+                    "description": "Learn basic logical steps and direction control through fun and simple gameplay coding.",
+                    "difficulty": "Beginner",
+                    "duration": "1 month per workshop",
+                    "hours": "1"
+                }
+            ]
+        },
+        "kids": {
+            "title": "Programs for Kids",
+            "desc": "For curious minds taking their first steps in technology and logic.",
+            "courses": [
+                {
+                    "id": "kids_little_creators",
+                    "age": "8 to 12 years",
+                    "title": "Little Creators",
+                    "description": "In this workshop, kids learn about the fundamental bases of electronics, robotics, and programming. They will learn by creating small robots that they will program to achieve their goals. The complete course is structured in several workshops of 2 weeks each, so that each child can do it at their own pace.",
+                    "difficulty": "Beginner",
+                    "duration": "2 months per workshop",
+                    "hours": "1.5"
+                },
+                {
+                    "id": "kids_little_coders",
+                    "age": "8 to 12 years",
+                    "title": "Little Coders",
+                    "description": "In this workshop, kids learn about the fundamental concepts of programming, with simple and guided exercises, then move on to develop their own animations and finally video games using the programming elements learned.",
+                    "difficulty": "Beginner",
+                    "duration": "3 months per workshop",
+                    "hours": "2"
+                },
+                {
+                    "id": "kids_events",
+                    "age": "8 to 12 years",
+                    "title": "Events",
+                    "description": "A one-and-a-half-hour workshop designed as a first technological approach for events and birthday parties. A unique experience that invites kids to awaken curiosity about technology.",
+                    "difficulty": "Beginner",
+                    "duration": "1.5 hours",
+                    "hours": "1.5"
+                }
+            ]
+        },
+        "teens": {
+            "title": "Programs for Teens",
+            "desc": "Real programming and robotics challenges for the creators of tomorrow.",
+            "courses": [
+                {
+                    "id": "teens_young_engineers",
+                    "age": "13 to 17 years",
+                    "title": "Young Automators",
+                    "description": "In this workshop, teens will learn the fundamentals of automation and industrial control, using the fundamental concepts of robotics to solve real-world problems.",
+                    "difficulty": "Intermediate",
+                    "duration": "6 months per workshop",
+                    "hours": "2"
+                },
+                {
+                    "id": "teens_young_developers",
+                    "age": "13 to 17 years",
+                    "title": "Young Developers",
+                    "description": "In this course, teens will learn to work with industrial programming languages, such as Python and JavaScript, creating systems with graphical web interfaces and database connections.",
+                    "difficulty": "Intermediate",
+                    "duration": "6 months per workshop",
+                    "hours": "2"
+                },
+                {
+                    "id": "teens_custom_classes",
+                    "age": "13 to 17 years",
+                    "title": "College Preparation",
+                    "description": "If you are thinking of entering college in an engineering or technology career, we help you prepare for admission exams.",
+                    "difficulty": "Intermediate",
+                    "duration": "Personalized classes",
+                    "hours": "3"
+                }
+            ]
+        },
+        "adults": {
+            "title": "Programs for Adults",
+            "desc": "Career change, automation, and industry-leading technologies.",
+            "courses": [
+                {
+                    "id": "adults_programming_startup",
+                    "age": "18+ years",
+                    "title": "Software Initiation",
+                    "description": "A series of workshops that will take you to program from scratch, focusing on the fundamental concepts of software development.",
+                    "difficulty": "Intermediate",
+                    "duration": "Self-Guided Virtual Workshops",
+                    "hours": "3"
+                },
+                {
+                    "id": "adults_programming_tooling",
+                    "age": "18+ years",
+                    "title": "Specific Training Workshops",
+                    "description": "Geared towards students and professionals who need to learn a specific technology. These workshops will allow you to learn the theoretical and practical concepts behind each tool or methodology and put them into practice in your classes or work.",
+                    "difficulty": "Hard",
+                    "duration": "Self-Guided Virtual Workshops",
+                    "hours": "2"
+                },
+                {
+                    "id": "corporate_contact",
+                    "age": "18+ years",
+                    "title": "Corporate Training",
+                    "description": "We build tailored programs for companies, combining workshops, events, and technological team-building activities to boost team training.",
+                    "difficulty": "Intermediate",
+                    "duration": "To be agreed",
+                    "hours": "2.5"
+                }
+            ]
+        }
+    },
+    "course_card": {
+        "success_text": "Thank you for writing to us. We will get in touch with you shortly.",
+        "age_group": "Recommended age",
+        "duration": "Duration",
+        "hours": "hours per week",
+        "difficulty": "Difficulty",
+        "enroll_btn": "Enroll",
+        "view_proposal_btn": "View Proposal"
+    }
+}

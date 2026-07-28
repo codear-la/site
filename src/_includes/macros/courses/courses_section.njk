@@ -1,0 +1,50 @@
+{% from 'macros/courses/course_card.njk' import course_card with context %}
+
+{% macro courses_section( category, header_colors ) %}
+  {% set category_courses = texts.pages.courses.courses[category] %}
+  {% if category_courses and category_courses.courses and category_courses.courses.length > 0 %}
+    <section
+      class="section {% if category == 'teens' %}section-alt{% endif %}"
+      style="padding-top: {% if category == 'kids' %}30px{% else %}50px{% endif %}; padding-bottom: {% if category == 'kids'
+      %}50px{% else %}60px{% endif %};"
+    >
+      <div class="container">
+        <div
+          id="{{ texts.pages.courses.meta[category + '_id'] }}"
+          style="margin-bottom: 40px; scroll-margin-top: 100px; text-align: left;"
+        >
+          <h3
+            class="text-{{ header_colors }}"
+            style="font-size: 1.8rem; margin: 0; display: inline-block; position: relative; padding-bottom: 8px;"
+          >
+            {{ category_courses.title }}
+            <span
+              style="position: absolute; bottom: 0; left: 0; width: 60px; height: 4px; background-color: var(--color-{{ header_colors }});
+            border-radius: 2px;"
+            ></span>
+          </h3>
+          <p style="margin-top: 15px; color: var(--color-text-muted); font-size: 1.05rem;">
+            {{ category_courses.description }}
+          </p>
+        </div>
+        <div class="grid-3">
+          {% for course in category_courses.courses %}
+            {{
+              course_card({
+                age: course.age,
+                title: course.title,
+                description: course.description,
+                duration: course.duration,
+                hours: course.hours,
+                difficulty: course.difficulty,
+                form_url: routes[lang].course_signup[course.id],
+                plan_url: routes[lang].course_plan[course.id],
+                category: category
+              })
+            }}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  {% endif %}
+{% endmacro %}

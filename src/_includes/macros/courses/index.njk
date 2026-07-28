@@ -1,0 +1,7 @@
+{%
+  from 'macros/courses/courses_section.njk' import courses_section as courses_section_impl with context
+%}
+
+{% macro courses_section( category, header_colors ) %}
+  {{ courses_section_impl(category, header_colors) }}
+{% endmacro %}

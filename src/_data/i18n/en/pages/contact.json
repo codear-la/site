@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "title": "Get in Touch With Us",
+        "description": "Write to us to request information about courses, extracurricular workshops, or special robotics events."
+    },
+    "title": "Let's Talk!",
+    "subtitle": "Have questions about courses, schedules, or formats? Leave us a message and we'll reply shortly.",
+    "contact_form": {
+        "name": {
+            "label": "Full Name",
+            "placeholder": "E.g. John Doe"
+        },
+        "phone": {
+            "label": "Phone Number",
+            "placeholder": "E.g. +54 9 11 1234-5678"
+        },
+        "email": {
+            "label": "Email Address",
+            "placeholder": "E.g. john@mail.com"
+        },
+        "message": {
+            "label": "Message",
+            "placeholder": "Tell us about your questions..."
+        },
+        "send": {
+            "text": "Send Message"
+        }
+    },
+    "success_modal": {
+        "title": "Message Sent!",
+        "text": "Thank you for writing to us. We will get in touch with you shortly.",
+        "accept": "Close"
+    },
+    "sidebar": {
+        "email": {
+            "title": "Email Address"
+        },
+        "phone": {
+            "title": "Phone / WhatsApp Support",
+            "hours": "Mon to Sat from 9:00 AM to 8:00 PM"
+        },
+        "address": {
+            "title": "Where are we?"
+        }
+    },
+    "modal_accept": "Close"
+}

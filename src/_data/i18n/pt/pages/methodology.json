@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "title": "Nossa Metodologia de Aprendizagem",
+        "description": "Metodologia baseada em projetos e aprendizagem ativa (STEM). Fomentamos a curiosidade e a experimentação em robótica e programação."
+    },
+    "title": "Como Ensinamos Tecnologia",
+    "subtitle": "Acreditamos que se aprende melhor quando se explora, ensaia e comete erros em um ambiente seguro e divertido. A indagação, exploração e o significado do que é feito reforçam o aprendizado significativo.",
+    "pillars": [
+        {
+            "label": "Pilar 1",
+            "title": "Aprendizagem Ativa (Learn by Doing)",
+            "desc": "Na codear.la não há aulas teóricas chatas. Desde o primeiro minuto, os estudantes interagem com o código ou montam peças. A teoria é introduzida naturalmente à medida que surge a necessidade de resolver um problema prático.",
+            "icon": "helpers.icons.pillar1",
+            "reversed": false
+        },
+        {
+            "label": "Pilar 2",
+            "title": "Aprendizagem Baseada em Projetos",
+            "desc": "Guiamos os estudantes para que projetem e executem projetos completos que façam sentido para eles. Pode ser programar um jogo para presentear um amigo, criar uma estação meteorológica para la escola ou automatizar um brinquedo. Isso os motiva a terminar o que começam e a ver o impacto de seu trabalho.",
+            "icon": "helpers.icons.pillar2",
+            "reversed": true
+        },
+        {
+            "label": "Pilar 3",
+            "title": "Gamificação e Pensamento Computacional",
+            "desc": "Projetamos dinâmicas de classe que parecem um jogo interativo. Os desafios semanais concedem medalhas e conquistas simbólicas, eliminando a frustração do erro. Para nós, erros de código não são falhas, são 'bugs' que devemos caçar em equipe, estimulando a resiliência e a análise lógica.",
+            "icon": "helpers.icons.pillar3",
+            "reversed": false
+        }
+    ]
+}

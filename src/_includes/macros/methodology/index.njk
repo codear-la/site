@@ -1,0 +1,7 @@
+{%
+  from 'macros/methodology/methodology_pillar.njk' import methodology_pillar as methodology_pillar_impl with context
+%}
+
+{% macro methodology_pillar( icon_path, label, title, description, reversed ) %}
+  {{ methodology_pillar_impl(icon_path, label, title, description, reversed) }}
+{% endmacro %}

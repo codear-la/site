@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+
+---
+{% from 'macros/about/index.njk' import member_card, value_card with context %}
+
+<section class="section">
+  <div class="container">
+    <div class="highlight-title">
+      <h2>{{ texts.pages.about.title }}</h2>
+      <p style="max-width: 700px; margin: 15px auto 0; text-align: center;">
+        {{ texts.pages.about.subtitle }}
+      </p>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 70px;">
+      <!-- History -->
+      <div>
+        <h3 class="text-navy" style="margin-bottom: 15px;">
+          {{ texts.pages.about.history.title }}
+        </h3>
+        {% for text in texts.pages.about.history.text %}
+          <p>{{ text }}</p>
+        {% endfor %}
+      </div>
+      <!-- Values -->
+      <div
+        style="background-color: var(--color-teal-light); border-radius: var(--border-radius-lg); padding: 40px; border: 1px
+          dashed var(--color-teal);"
+      >
+        <h3 class="text-teal" style="margin-bottom: 15px;">
+          {{ texts.pages.about.values.title }}
+        </h3>
+        <ul
+          class="values-list"
+          style="display: flex; flex-direction: column; gap: 15px;"
+        >
+          {% for value in texts.pages.about.values.items %}
+            {{ value_card(value) }}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <!-- Team Section -->
+    <div class="highlight-title" style="margin-top: 80px;">
+      <h2>{{ texts.pages.about.team.title }}</h2>
+      <p style="max-width: 600px; margin: 15px auto 0; text-align: center;">
+        {{ texts.pages.about.team.subtitle }}
+      </p>
+    </div>
+    <div class="team-grid">
+      {% for member in texts.pages.about.team.members %}
+        {{ member_card(member) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>

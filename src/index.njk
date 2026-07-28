@@ -1,29 +1,30 @@
 ---
 permalink: /index.html
+
 ---
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=/es/">
-  <title>codear.la</title>
-  <script>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=/es/">
+    <title>codear.la</title>
+    <script>
     // Detect the browser's preferred language and redirect
-    try {
-      const userLang = navigator.language || navigator.userLanguage;
-      if (userLang.startsWith('pt')) {
-        window.location.href = "/pt/";
-      } else if (userLang.startsWith('en')) {
-        window.location.href = "/en/";
-      } else {
-        window.location.href = "/es/";
-      }
-    } catch (e) {
-      window.location.href = "/es/";
-    }
-  </script>
-</head>
-<body>
-  <p>Redirigiendo a / Redirecting to <a href="/es/">codear.la</a>...</p>
-</body>
+try {
+  const userLang = navigator.language || navigator.userLanguage;
+  if (userLang.startsWith("pt")) {
+    window.location.href = "/pt/";
+  } else if (userLang.startsWith("en")) {
+    window.location.href = "/en/";
+  } else {
+    window.location.href = "/es/";
+  }
+} catch (e) {
+  window.location.href = "/es/";
+}
+    </script>
+  </head>
+  <body>
+    <p><a href="/es/">codear.la</a></p>
+  </body>
 </html>

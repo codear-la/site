@@ -177,6 +177,12 @@ img {
   gap: 8px;
 }
 
+.btn svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
 .btn-primary {
   background-color: var(--color-teal);
   color: var(--color-bg-white);
@@ -190,7 +196,7 @@ img {
 }
 
 .btn-secondary {
-  background-color: transparent;
+  background-color: var(--color-bg-white);
   border-color: var(--color-navy);
   color: var(--color-navy);
 }
@@ -214,10 +220,48 @@ img {
   box-shadow: 0 8px 16px rgba(245, 158, 11, 0.25);
 }
 
+.btn-navy {
+  background-color: var(--color-navy);
+  color: var(--color-bg-white);
+}
+
+.btn-navy:hover {
+  background-color: var(--color-navy-hover);
+  color: var(--color-bg-white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(20, 66, 101, 0.2);
+}
+
 .btn-group {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+}
+
+/* Hero Button Group layout customization */
+.hero-content {
+  container-type: inline-size;
+}
+
+.hero-content .btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+}
+
+.hero-content .btn-group .btn {
+  width: 100%;
+}
+
+@container (min-width: 820px) {
+  .hero-content .btn-group {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .hero-content .btn-group .btn {
+    width: auto;
+  }
 }
 
 /* Header & Navigation */
@@ -522,6 +566,16 @@ img {
 
 .course-meta-item svg {
   color: var(--color-teal);
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.values-list svg {
+  width: 22px;
+  height: 22px;
+  color: var(--color-teal);
+  stroke-width: 2.5;
   flex-shrink: 0;
 }
 
@@ -878,6 +932,8 @@ textarea.form-input {
 .footer-contact-item svg {
   color: var(--color-teal);
   flex-shrink: 0;
+  width: 18px;
+  height: 18px;
 }
 
 .footer-bottom {
@@ -916,6 +972,12 @@ textarea.form-input {
   background-color: var(--color-teal);
   color: var(--color-bg-white);
   transform: translateY(-3px);
+}
+
+.social-btn svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
 }
 
 /* Responsive Styles */
@@ -965,6 +1027,12 @@ textarea.form-input {
 @media (max-width: 768px) {
   :root {
     --header-height: 70px;
+  }
+  
+  .site-header {
+    background-color: var(--color-bg-white);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
   
   /* Mobile Menu Hamburger Logic */

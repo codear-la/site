@@ -1,0 +1,18 @@
+{% macro contact_form_success_modal() %}
+  <div id="success-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-icon">
+        {% include helpers.icons.check %}
+      </div>
+      <h3 class="modal-title">
+        {{ texts.pages.contact.success_modal.title }}
+      </h3>
+      <p style="margin-bottom: 25px;">
+        {{ texts.pages.contact.success_modal.text }}
+      </p>
+      <button id="close-modal" class="btn btn-primary" style="width: 100%;">
+        {{ texts.pages.contact.success_modal.accept }}
+      </button>
+    </div>
+  </div>
+{% endmacro %}

@@ -1,0 +1,39 @@
+{
+    "meta": {
+        "title": "Programación y Robótica Educativa para Niños",
+        "description": "Clases dinámicas y divertidas de programación y robótica para niños y adolescentes de 6 a 16 años. Fomentamos el pensamiento computacional."
+    },
+    "hero": {
+        "title": "¡Despierta el superpoder de <span class=\"text-teal\">crear tecnología</span>!",
+        "subtitle": "En <strong>codear.la</strong> enseñamos a niños, jóvenes y adultos a programar, a construir robots inteligentes y a resolver problemas utilizando la tecnología.",
+        "btn_kids": "Ver propuestas para chicos",
+        "btn_teens": "Ver propuestas para jóvenes",
+        "btn_adults": "Ver propuestas para adultos"
+    },
+    "benefits": {
+        "title": "¿Por qué aprender en codear.la?",
+        "subtitle": "En <strong>codear.la</strong> los chicos no solo vienen a divertirse. Nos enfocamos en transmitir conocimiento real que les beneficiará en sus estudios, sin importar el camino que elijan.",
+        "items": [
+            {
+                "title": "Pensamiento Lógico",
+                "desc": "Aprenden a descomponer problemas complejos en pasos sencillos, estructurando su mente de manera ordenada y analítica.",
+                "icon": "blocks"
+            },
+            {
+                "title": "Creatividad Activa",
+                "desc": "Pasan de ser consumidores de pantallas a ser creadores de su propia tecnología, programando sus propios juegos y animaciones.",
+                "icon": "clock"
+            },
+            {
+                "title": "Trabajo Colaborativo",
+                "desc": "Trabajan en proyectos cooperativos, potenciando habilidades blandas indispensables como la empatía, la comunicación y el liderazgo.",
+                "icon": "people"
+            }
+        ]
+    },
+    "call_to_action": {
+        "title": "¿Listos para dar el primer paso?",
+        "description": "Nuestras inscripciones para cursos y talleres están abiertas, escribenos y te contactaremos. También puedes escribirnos para clases particulares o experiencias personalizadas.",
+        "contact": "Escribenos"
+    }
+}

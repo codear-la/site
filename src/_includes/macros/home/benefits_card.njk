@@ -1,0 +1,12 @@
+{% macro benefits_card( props ) %}
+  {#  props: { title: string, description: string, icon: string } #}
+  <div class="card">
+    <div class="card-icon">
+      {% if props.icon %}
+        {% include helpers.icons[props.icon] %}
+      {% endif %}
+    </div>
+    <h3>{{ props.title }}</h3>
+    <p>{{ props.description }}</p>
+  </div>
+{% endmacro %}

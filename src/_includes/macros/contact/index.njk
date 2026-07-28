@@ -1,0 +1,35 @@
+{%
+  from 'macros/contact/contact_address_card.njk' import contact_address_card as contact_address_card_impl with context
+%}
+{%
+  from 'macros/contact/contact_email_card.njk' import contact_email_card as contact_email_card_impl with context
+%}
+{%
+  from 'macros/contact/contact_phone_card.njk' import contact_phone_card as contact_phone_card_impl with context
+%}
+{%
+  from 'macros/contact/contact_form.njk' import contact_form as contact_form_impl with context
+%}
+{%
+  from 'macros/contact/contact_form_success_modal.njk' import contact_form_success_modal as contact_form_success_modal_impl with context
+%}
+
+{% macro contact_address_card( address, map_embed ) %}
+  {{ contact_address_card_impl(address, map_embed) }}
+{% endmacro %}
+
+{% macro contact_email_card( email ) %}
+  {{ contact_email_card_impl(email) }}
+{% endmacro %}
+
+{% macro contact_phone_card( phone, whatsapp_link ) %}
+  {{ contact_phone_card_impl(phone, whatsapp_link) }}
+{% endmacro %}
+
+{% macro contact_form() %}
+  {{ contact_form_impl() }}
+{% endmacro %}
+
+{% macro contact_form_success_modal() %}
+  {{ contact_form_success_modal_impl() }}
+{% endmacro %}

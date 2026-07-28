@@ -1,0 +1,16 @@
+{% macro contact_address_card( address, map_embed ) %}
+  <div class="info-item-card" style="flex-direction: column;">
+    <h4 class="text-navy" style="font-size: 1.1rem; margin-bottom: 10px;">
+      {{ texts.pages.contact.sidebar.address.title }}
+    </h4>
+    <p style="font-size: 0.95rem; color: var(--color-text-muted); margin-bottom: 15px;">
+      {{ address }}
+    </p>
+    <iframe
+      width="100%"
+      height="220"
+      style="border: 0; border-radius: var(--border-radius-md); background-color: var(--color-teal-light);"
+      src="{{ map_embed }}"
+    ></iframe>
+  </div>
+{% endmacro %}

@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Un titulo",
+        "description": "Una descripcion"
+    },
+    "title": "Transformando la Educación",
+    "subtitle": "Nuestra misión es empoderar a la próxima generación de creadores digitales mediante la tecnología y la diversión.",
+    "history": {
+        "title": "Nuestra Historia",
+        "text": [
+            "Si bien existen diversas instituciones que brindan a los chicos fomento y desarrollo en las artes y el deporte, notamos que lo que refiere al desarrollo tecnológico y los conocimientos digitales estaba fuertemente desatendido.",
+            "Ambos miembros fundadores trabajamos desde hace años en el ámbito de la educación formal y notabamos además que las escasas propuestas existentes tenían un enfoque meramente mecánico y sin un verdadero componente pedagógico.",
+            "Nos propusimos crear un espacio que atendiera el interés de las infancias y las familias en referencia al aprendizaje tecnológico, buscando generar un verdadero proceso de aprendizaje enfocado en habilidades útiles para el futuro, como la resolución de problemas, el pensamiento computacional y el análisis lógico. Un espacio donde los chicos y chicas puedan descubrir intereses y despertar vocaciones, donde se vayan a su casa cada día con un conocimiento nuevo, habiendolo descubierto de manera lúdica y divertida.",
+            "Sumamos a esa idea nuestro conocimiento en la industria del software, el desarrollo de aplicaciones y la robótica y automatización, para brindar también capacitación a adultos, profesionales y empresas.",
+            "Así, nació codear.la, un espacio que arrancó con dos personas, y que hoy está conformado por un un equipo apasionado de profesionales con quienes en conjunto llevamos adelante esta propuesta."
+        ]
+    },
+    "values": {
+        "title": "Nuestros Valores",
+        "items": [
+            {
+                "title": "La tecnologia como herramienta para la interacción",
+                "text": "El verdadero valor está en aprender a solucionar problemas usando la tecnología, no en ser un simple usuario de la misma. Creemos que la tecnología es solo un vehículo que permite llevar adelante ideas y potenciar el trabajo y el aprendizaje."
+            },
+            {
+                "title": "Inteligencia humana, no artificial",
+                "text": "Entendemos que las máquinas, por muy avanzadas que estén, no pueden reemplazar el rol fundamental de la interacción humana. Es por eso que nuestros cursos intentan siempre ser presenciales, mediadas por el trabajo en grupo, y con un docente humano, no robot."
+            },
+            {
+                "title": "Las personas por encima de las computadoras",
+                "text": "Nuestro objetivo no es reemplazar la interacción humana por la tecnología, sino potenciarla. La tecnología está al servicio de las personas y no al revés."
+            }
+        ]
+    },
+    "team": {
+        "title": "Fundadores",
+        "subtitle": "Somos profesionales del mundo del software y la automatización, apasionados docentes, que decidimos crear una propuesta diferente.",
+        "members": [
+            {
+                "name": "Alan Rodas Bonjour",
+                "img": "alanrodas.jpg",
+                "role": "Fundador",
+                "description": "Licenciado en Informática por la UNQ, Profesor en Disciplinas Industriales por la UTN y Diplomado en Computación Avanzada por CDAC (India), Alan ha trabajado en la industria del software y lleva ejerciendo la docencia en el ámbito universitario y secundario hace más de 10 años."
+            },
+            {
+                "name": "Martín Pablo Sauczuk",
+                "img": "martinsauczuk.jpg",
+                "role": "Fundador",
+                "description": "Ingeniero en Automatización y Control Industrial por parte la UNQ, y estudiante de Doctorado en la misma casa, Martín ha trabajado en las áreas de domótica, desarrollo de software y automatización en numerosas empresas y hoy se dedica a la docencia universitaria."
+            }
+        ]
+    }
+}

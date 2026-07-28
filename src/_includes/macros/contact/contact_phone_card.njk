@@ -1,0 +1,19 @@
+{% macro contact_phone_card( phone, whatsapp_link ) %}
+  <div class="info-item-card">
+    <div class="info-icon">
+      {% include helpers.icons.phone %}
+    </div>
+    <div class="info-text">
+      <h4>{{ texts.pages.contact.sidebar.phone.title }}</h4>
+      <p>
+        {{ texts.pages.contact.sidebar.phone.hours }}
+        <br />
+        <a
+          href="{{ whatsapp_link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >{{ phone }}</a>
+      </p>
+    </div>
+  </div>
+{% endmacro %}

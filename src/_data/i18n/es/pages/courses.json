@@ -1,0 +1,146 @@
+{
+    "meta": {
+        "title": "Nuestros Cursos de Robótica y Programación",
+        "description": "Cursos diseñados y adaptados por grupos de edad. Desde la lógica básica de programación hasta el desarrollo real de hardware y software.",
+        "kinder_id": "kinder",
+        "kids_id": "chicos",
+        "teens_id": "jovenes",
+        "adults_id": "adultos"
+    },
+    "title": "Cursos Adaptados por Edades",
+    "subtitle": "Nuestro plan de estudios está estructurado pedagógicamente para acompañar el desarrollo cognitivo de cada estudiante.",
+    "courses": {
+        "kinder": {
+            "title": "Propuestas para Kinder",
+            "description": "Para estudiantes tempranos que comienzan a explorar la tecnología y estructuras básicas.",
+            "courses": [
+                {
+                    "id": "kinder_mini_builders",
+                    "age": "4 a 7 años",
+                    "title": "Mini Creadores",
+                    "description": "Una introducción lúdica a la construcción y mecánica básica para nuestros alumnos más pequeños.",
+                    "difficulty": "Principiante",
+                    "duration": "1 mes por taller",
+                    "hours": "1"
+                },
+                {
+                    "id": "kinder_mini_gamers",
+                    "age": "4 a 7 años",
+                    "title": "Mini Gamers",
+                    "description": "Aprende pasos lógicos básicos y control de direcciones a través del diseño de videojuegos simples y divertidos.",
+                    "difficulty": "Principiante",
+                    "duration": "1 mes por taller",
+                    "hours": "1"
+                }
+            ]
+        },
+        "kids": {
+            "title": "Propuestas para Chicos",
+            "desc": "Para mentes curiosas dando sus primeros pasos en tecnología y lógica.",
+            "courses": [
+                {
+                    "id": "kids_little_creators",
+                    "age": "8 a 12 años",
+                    "title": "Pequeños Creadores",
+                    "description": "En este taller los chicos aprenden sobre las bases fundamentales de la electrónica, la robotica y la programación. Aprenderan creando pequeños robots que programaran para lograr sus objetivos. El curso completo se estrcutra en varios talleres de 2 semanas cada uno, para que cada chico pueda hacerlo a su ritmo.",
+                    "difficulty": "Principiante",
+                    "duration": "2 meses por taller",
+                    "hours": "1.5"
+                },
+                {
+                    "id": "kids_little_coders",
+                    "age": "8 a 12 años",
+                    "title": "Pequeños Coders",
+                    "description": "En este taller los chicos aprenden sobre los conceptos fundamentales de la programación, con ejercicios simples y guiados, para luego pasar a desarrollar sus propias animaciones y finalmente videojuegos usando los elementos de programación aprendidos.",
+                    "difficulty": "Principiante",
+                    "duration": "3 meses por taller",
+                    "hours": "2"
+                },
+                {
+                    "id": "kids_events",
+                    "age": "8 a 12 años",
+                    "title": "Eventos",
+                    "description": "Un taller de hora y media pensado como un primer acercamiento tecnológico en eventos y fiestas de cumpleaños. Una experiencia única que invita a los chicos a despertar la curiosidad por la tecnología.",
+                    "difficulty": "Principiante",
+                    "duration": "1.30 hs",
+                    "hours": "1.5"
+                }
+            ]
+        },
+        "teens": {
+            "title": "Propuestas para Jóvenes",
+            "desc": "Desafíos reales de programación y robótica para los creadores del mañana.",
+            "courses": [
+                {
+                    "id": "teens_young_engineers",
+                    "age": "13 a 17 años",
+                    "title": "Jovenes Automatizadores",
+                    "description": "En este taller los jovenes aprenderan los fundamentos de la automatización y el control industrial, usando los conceptos fundamentales de robotica para soluciones problemas del mundo real.",
+                    "difficulty": "Intermedio",
+                    "duration": "6 meses por taller",
+                    "hours": "2"
+                },
+                {
+                    "id": "teens_young_developers",
+                    "age": "13 a 17 años",
+                    "title": "Jovenes Desarrolladores",
+                    "description": "En este curso los jovenes aprenderan a trabajar con lenguiajes de programación industriales, como Python and JavaScript, creando sistemas con interfaces gráficas web, y conexiones a bases de datos.",
+                    "difficulty": "Intermedio",
+                    "duration": "6 meses por taller",
+                    "hours": "2"
+                },
+                {
+                    "id": "teens_custom_classes",
+                    "age": "13 a 17 años",
+                    "title": "Preparación Universitaria",
+                    "description": "Si estás pensando ingresar a la universidad en una carrera de ingeniería o tecnología, te ayudamos a prepararte para los examenes de ingresos.",
+                    "difficulty": "Intermedio",
+                    "duration": "Clases personalizadas",
+                    "hours": "3"
+                }
+            ]
+        },
+        "adults": {
+            "title": "Propuestas para Adultos",
+            "desc": "Reconversión laboral, automatización y tecnologías líderes en la industria.",
+            "courses": [
+                {
+                    "id": "adults_programming_startup",
+                    "age": "18+ años",
+                    "title": "Iniciación al Software",
+                    "description": "Una serie de talleres que te llevarán a programar desde cero, focalizando en los conceptos fundamentales del desarrollo de software.",
+                    "difficulty": "Intermedio",
+                    "duration": "Talleres Virtuales Autoguiados",
+                    "hours": "3"
+                },
+                {
+                    "id": "adults_programming_tooling",
+                    "age": "18+ años",
+                    "title": "Talleres de Formación Específica",
+                    "description": "Orientados a estudiantes and profesionales que requieren aprender una tecnología específica. Estos talleres te permitirán aprender los conceptos teóricos y prácticos detras de cada herramienta o metodología y ponerla en práctica en tus clases o tu trabajo.",
+                    "difficulty": "Dificil",
+                    "duration": "Talleres Virtuales Autoguiados",
+                    "hours": "2"
+                },
+                {
+                    "id": "corporate_contact",
+                    "age": "18+ años",
+                    "title": "Capacitación Empresarial",
+                    "description": "Armamos programas a medida para empresas, combinando talleres, eventos y actividades de team-building tecnológico para potenciar la capacitación de equipos.",
+                    "difficulty": "Intermedio",
+                    "duration": "A convenir",
+                    "hours": "2.5"
+                }
+            ]
+        }
+    },
+    "course_card": {
+        "success_text": "Muchas gracias por escribirnos. Nos pondremos en contacto contigo a la brevedad.",
+        "age_group": "Edad recomendada",
+        "duration": "Duración",
+        "hours": "horas semanales",
+        "difficulty": "Dificultad",
+        "enroll_btn": "Inscribirse",
+        "view_proposal_btn": "Ver propuesta"
+    }
+}

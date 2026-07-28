@@ -1,5 +1,0 @@
-{
-  "lang": "en",
-  "layout": "layouts/base.njk",
-  "permalink": "{% if page.fileSlug == lang %}/en/index.html{% else %}/en/{{ page.fileSlug }}/index.html{% endif %}"
-}

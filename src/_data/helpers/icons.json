@@ -1,0 +1,19 @@
+{
+  "blocks": "icons/blocks.svg",
+  "check": "icons/check.svg",
+  "clock": "icons/clock.svg",
+  "email": "icons/email.svg",
+  "people": "icons/people.svg",
+  "phone": "icons/phone.svg",
+  "calendar": "icons/calendar.svg",
+  "level": "icons/level.svg",
+  "send": "icons/send.svg",
+  "facebook": "icons/facebook.svg",
+  "instagram": "icons/instagram.svg",
+  "youtube": "icons/youtube.svg",
+  "github": "icons/github.svg",
+  "map_pin": "icons/map-pin.svg",
+  "pillar1": "icons/pillar1.svg",
+  "pillar2": "icons/pillar2.svg",
+  "pillar3": "icons/pillar3.svg"
+}

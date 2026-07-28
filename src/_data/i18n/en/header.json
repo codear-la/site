@@ -1,0 +1,21 @@
+{
+    "logo": {
+        "aria_label": "Go to Home",
+        "alt": "codear.la logo"
+    },
+    "menu": {
+        "toggle_aria_label": "Open or close menu"
+    },
+    "nav": {
+        "home": "Home",
+        "courses": "Courses",
+        "methodology": "Methodology",
+        "about": "About Us",
+        "contact": "Contact",
+        "languages": {
+            "en": "English",
+            "es": "Spanish",
+            "pt": "Portuguese"
+        }
+    }
+}

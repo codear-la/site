@@ -1,0 +1,57 @@
+{% macro contact_form() %}
+  <form id="contact-form" action="#" method="POST">
+    <div class="form-group-row">
+      <div class="form-group">
+        <label for="form-name" class="form-label">{{
+            texts.pages.contact.contact_form.name.label
+          }} *</label>
+        <input
+          type="text"
+          id="form-name"
+          class="form-input"
+          placeholder="{{ texts.pages.contact.contact_form.name.placeholder }}"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="form-phone" class="form-label">{{
+          texts.pages.contact.contact_form.phone.label
+        }}</label>
+        <input
+          type="tel"
+          id="form-phone"
+          class="form-input"
+          placeholder="{{ texts.pages.contact.contact_form.phone.placeholder }}"
+        />
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="form-email" class="form-label">{{
+          texts.pages.contact.contact_form.email.label
+        }} *</label>
+      <input
+        type="email"
+        id="form-email"
+        class="form-input"
+        placeholder="{{ texts.pages.contact.contact_form.email.placeholder }}"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="form-message" class="form-label">{{
+          texts.pages.contact.contact_form.message.label
+        }}
+        *</label>
+      <textarea
+        id="form-message"
+        class="form-input"
+        placeholder="{{ texts.pages.contact.contact_form.message.placeholder }}"
+        required
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" style="width: 100%;">
+      {{ texts.pages.contact.contact_form.send.text }}
+      {% include helpers.icons.send %}
+    </button>
+  </form>
+{% endmacro %}

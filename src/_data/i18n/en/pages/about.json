@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "About Us - Who We Are",
+        "description": "Meet codear.la, an initiative dedicated to transforming children's relationship with technology, fostering creators and inventors."
+    },
+    "title": "Transforming Education",
+    "subtitle": "Our mission is to empower the next generation of digital creators through technology and fun.",
+    "history": {
+        "title": "Our History",
+        "text": [
+            "While there are various institutions that provide children with encouragement and development in arts and sports, we noticed that what relates to technological development and digital knowledge was strongly neglected.",
+            "Both founding members have worked for years in the field of formal education and also noticed that the few existing proposals had a merely mechanical approach and lacked a true pedagogical component.",
+            "We set out to create a space that would cater to the interests of children and families regarding technological learning, seeking to generate a true learning process focused on skills useful for the future, such as problem solving, computational thinking, and logical analysis. A space where boys and girls can discover interests and awaken vocations, leaving for home every day with new knowledge, having discovered it in a playful and fun way.",
+            "We added to this idea our knowledge in the software industry, application development, and robotics and automation, to also provide training for adults, professionals, and companies.",
+            "Thus, codear.la was born, a space that started with two people, and is today made up of a passionate team of professionals with whom we jointly carry out this proposal."
+        ]
+    },
+    "values": {
+        "title": "Our Values",
+        "items": [
+            {
+                "title": "Technology as a tool for interaction",
+                "text": "The real value lies in learning to solve problems using technology, not in being a simple user of it. We believe that technology is only a vehicle that allows us to carry ideas forward and boost work and learning."
+            },
+            {
+                "title": "Human intelligence, not artificial",
+                "text": "We understand that machines, no matter how advanced, cannot replace the fundamental role of human interaction. That is why our courses always aim to be face-to-face, mediated by group work, and with a human teacher, not a robot."
+            },
+            {
+                "title": "People over computers",
+                "text": "Our goal is not to replace human interaction with technology, but to enhance it. Technology is at the service of people and not the other way around."
+            }
+        ]
+    },
+    "team": {
+        "title": "Founders",
+        "subtitle": "We are professionals from the software and automation world, passionate educators, who decided to create a different proposal.",
+        "members": [
+            {
+                "name": "Alan Rodas Bonjour",
+                "img": "alanrodas.jpg",
+                "role": "Founder",
+                "description": "Bachelor in Computer Science from UNQ, Professor of Industrial Disciplines from UTN, and Graduate in Advanced Computing from CDAC (India). Alan has worked in the software industry and has been teaching in university and high school environments for more than 10 years."
+            },
+            {
+                "name": "Martín Pablo Sauczuk",
+                "img": "martinsauczuk.jpg",
+                "role": "Founder",
+                "description": "Automation and Industrial Control Engineer from UNQ, and PhD student at the same institution. Martín has worked in domotics, software development, and automation in numerous companies, and currently dedicates himself to university teaching."
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{% macro contact_email_card( email ) %}
+  <div class="info-item-card">
+    <div class="info-icon">
+      {% include helpers.icons.email %}
+    </div>
+    <div class="info-text">
+      <h4>{{ texts.pages.contact.sidebar.email.title }}</h4>
+      <p>
+        <a href="mailto:{{ email }}">{{ email }}</a>
+      </p>
+    </div>
+  </div>
+{% endmacro %}

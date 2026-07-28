@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Sobre Nós - Quem Somos",
+        "description": "Conheça o codear.la, uma iniciativa dedicada a transformar a relação das crianças com a tecnologia, formando criadores e inventores."
+    },
+    "title": "Transformando a Educação",
+    "subtitle": "Nossa missão é capacitar a próxima geração de criadores digitais por meio da tecnologia e da diversão.",
+    "history": {
+        "title": "Nossa História",
+        "text": [
+            "Embora existam várias instituições que oferecem às crianças incentivo e desenvolvimento nas artes e nos esportes, notamos que o que se refere ao desenvolvimento tecnológico e aos conhecimentos digitais estava fortemente desatendido.",
+            "Ambos os membros fundadores trabalhamos há anos no âmbito da educação formal e notávamos também que as poucas propostas existentes tinham um enfoque meramente mecânico e sem um verdadeiro componente pedagógico.",
+            "Propusemo-nos a criar um espaço que atendesse ao interesse das infâncias e das famílias em relação à aprendizagem tecnológica, buscando gerar um verdadeiro processo de aprendizagem focado em habilidades úteis para o futuro, como a resolução de problemas, o pensamento computacional e a análise lógica. Um espaço onde os meninos e meninas possam descobrir interesses e despertar vocações, voltando para casa todos os dias com um conhecimento novo, tendo-o descoberto de maneira lúdica e divertida.",
+            "Somamos a essa ideia nosso conhecimento na indústria do software, no desenvolvimento de aplicações e na robótica e automação, para oferecer também treinamento a adultos, profissionais e empresas.",
+            "Assim nasceu o codear.la, um espaço que começou com duas pessoas e que hoje é formado por uma equipe apaixonada de profissionais com quem, em conjunto, realizamos esta proposta."
+        ]
+    },
+    "values": {
+        "title": "Nossos Valores",
+        "items": [
+            {
+                "title": "A tecnologia como ferramenta para a interação",
+                "text": "O verdadeiro valor está em aprender a solucionar problemas usando a tecnologia, e não em ser um mero usuário dela. Acreditamos que a tecnologia é apenas um veículo que permite realizar ideias e potenciar o trabalho e a aprendizagem."
+            },
+            {
+                "title": "Inteligência humana, não artificial",
+                "text": "Entendemos que as máquinas, por mais avançadas que sejam, não podem substituir o papel fundamental da interação humana. É por isso que nossos cursos buscam sempre ser presenciais, mediados pelo trabalho em grupo, e com um professor humano, não um robô."
+            },
+            {
+                "title": "As pessoas acima dos computadores",
+                "text": "Nosso objetivo não é substituir a interação humana pela tecnologia, mas sim potenciá-la. A tecnologia está a serviço das pessoas e não o contrário."
+            }
+        ]
+    },
+    "team": {
+        "title": "Fundadores",
+        "subtitle": "Somos profissionais do mundo do software e da automação, docentes apaixonados, que decidimos criar uma proposta diferente.",
+        "members": [
+            {
+                "name": "Alan Rodas Bonjour",
+                "img": "alanrodas.jpg",
+                "role": "Fundador",
+                "description": "Licenciado em Informática pela UNQ, Professor de Disciplinas Industriais pela UTN e Diplomado em Computación Avanzada pelo CDAC (Índia), Alan trabalhou na indústria de software e leciona no ensino universitário e secundário há mais de 10 anos."
+            },
+            {
+                "name": "Martín Pablo Sauczuk",
+                "img": "martinsauczuk.jpg",
+                "role": "Fundador",
+                "description": "Engenheiro de Automação e Controle Industrial pela UNQ, e estudante de Doutorado na mesma instituição, Martín trabalhou nas áreas de domótica, desenvolvimento de software e automação em diversas empresas e hoje se dedica à docência universitária."
+            }
+        ]
+    }
+}

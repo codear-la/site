@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "title": "Our Learning Methodology",
+        "description": "Project-based methodology and active learning (STEM). We foster curiosity and experimentation in robotics and programming."
+    },
+    "title": "How We Teach Technology",
+    "subtitle": "We believe learning happens best when exploring, practicing, and making mistakes in a safe and fun environment. Inquiry, exploration, and the significance of what is done reinforce meaningful learning.",
+    "pillars": [
+        {
+            "label": "Pillar 1",
+            "title": "Active Learning (Learn by Doing)",
+            "desc": "At codear.la there are no boring theoretical classes. From the very first minute, students interact with code or assemble parts. Theory is introduced naturally as the need arises to solve a practical problem.",
+            "icon": "helpers.icons.pillar1",
+            "reversed": false
+        },
+        {
+            "label": "Pillar 2",
+            "title": "Project-Based Learning",
+            "desc": "We guide students to design and execute complete projects that make sense to them. It could be programming a video game to give to a friend, creating a weather station for school, or automating a toy. This motivates them to finish what they start and see the impact of their work.",
+            "icon": "helpers.icons.pillar2",
+            "reversed": true
+        },
+        {
+            "label": "Pillar 3",
+            "title": "Gamification and Computational Thinking",
+            "desc": "We design class dynamics that feel like an interactive game. Weekly challenges award badges and symbolic achievements, removing the frustration of error. For us, code errors are not failures; they are 'bugs' that we must hunt down as a team, stimulating resilience and logical analysis.",
+            "icon": "helpers.icons.pillar3",
+            "reversed": false
+        }
+    ]
+}
