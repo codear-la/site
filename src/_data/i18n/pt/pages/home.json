@@ -12,7 +12,7 @@
     },
     "benefits": {
         "title": "Por que aprender na codear.la?",
-        "desc": "Na <strong>codear.la</strong> as crianças não vêm apenas para se divertir. Nosso foco é transmitir conhecimento real que as beneficiará em seus estudos, independentemente do caminho que escolherem.",
+        "subtitle": "Na <strong>codear.la</strong> as crianças não vêm apenas para se divertir. Nosso foco é transmitir conhecimento real que as beneficiará em seus estudos, independentemente do caminho que escolherem.",
         "items": [
             {
                 "title": "Pensamento Lógico",

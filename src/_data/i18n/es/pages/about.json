@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "Un titulo",
+        "title": "Nosotros",
         "description": "Una descripcion"
     },
     "title": "Transformando la Educación",
@@ -46,7 +46,7 @@
                 "name": "Martín Pablo Sauczuk",
                 "img": "martinsauczuk.jpg",
                 "role": "Fundador",
-                "description": "Ingeniero en Automatización y Control Industrial por parte la UNQ, y estudiante de Doctorado en la misma casa, Martín ha trabajado en las áreas de domótica, desarrollo de software y automatización en numerosas empresas y hoy se dedica a la docencia universitaria."
+                "description": "Ingeniero en Automatización y Control Industrial por parte la UNQ, y estudiante de Maestría en sistemas embebidos, Martin ha trabajado en las áreas de domótica, desarrollo de software y automatización en numerosas empresas y hoy se dedica a la docencia universitaria."
             }
         ]
     }
