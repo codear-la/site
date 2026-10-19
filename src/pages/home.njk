@@ -44,13 +44,13 @@ layout: "layouts/base.njk"
     <div class="highlight-title">
       <h2>{{ texts.pages.home.benefits.title }}</h2>
       <p style="max-width: 700px; margin: 15px auto 0; text-align: center;">
-        {{ texts.pages.home.benefits.desc | safe }}
+        {{ texts.pages.home.benefits.subtitle | safe }}
       </p>
     </div>
     <div class="grid-3">
       {% for benefit in texts.pages.home.benefits.items %}
         {{
-          benefits_card(lang, texts, { 'title': benefit.title, 'description': benefit.desc, 'icon': benefit.icon })
+          benefits_card({ 'title': benefit.title, 'desc': benefit.desc, 'icon': benefit.icon })
         }}
       {% endfor %}
     </div>

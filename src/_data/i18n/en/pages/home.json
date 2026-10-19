@@ -12,7 +12,7 @@
     },
     "benefits": {
         "title": "Why learn at codear.la?",
-        "desc": "At <strong>codear.la</strong> kids don't just come to have fun. We focus on transmitting real knowledge that will benefit them in their studies, no matter what path they choose.",
+        "subtitle": "At <strong>codear.la</strong> kids don't just come to have fun. We focus on transmitting real knowledge that will benefit them in their studies, no matter what path they choose.",
         "items": [
             {
                 "title": "Logical Thinking",
